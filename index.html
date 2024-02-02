@@ -5,17 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Diphylleia&effect=shadow-multiple">
     <title>Game: Snake Water Gun</title>
 </head>
 
 <body>
     <div class="container">
-        <img src="snake.png" id="snake" alt="">
-        <img src="water.png" id="water" alt="">
-        <img src="gun.png" id="gun" alt="">
-        <h1>Snake Water Gun</h1>
+        <header>
+            <img src="snake.png" id="snake" alt="">
+            <img src="water.png" id="water" alt="">
+            <img src="gun.png" id="gun" alt="">
+            <h1>Snake Water Gun</h1>
+        </header>
 
+        <h3>Choose one</h3>
+        <!-- play container  -->
+        <div class="play">
+            <div class="user">
+                <!-- img snake -->
+                <div class="snake">
+                    <img src="snake.png" alt="">
+                </div>
+                <!-- img water  -->
+                <div class="water">
+                    <img src="water.png" alt="">
+                </div>
+                <!-- img gun -->
+                <div class="gun">
+                    <img src="gun.png" alt="">
+                </div>
+            </div>
+            <div class="comp">
+                <!-- img computer -->
+                <img src="computer.png" id="comp" alt="">
+            </div>
+        </div>
+
+        <div class="compare">
+            <p class="font-effect-shadow-multiple">V/S</p>
+        </div>
+
+        <input type="text" id="input">
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
