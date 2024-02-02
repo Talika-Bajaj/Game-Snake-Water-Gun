@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(
+        plum 80%,
+        firebrick 45%,
+        seagreen 52%,  
+    );
+}
