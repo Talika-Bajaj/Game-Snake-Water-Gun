@@ -13,8 +13,12 @@ body {
 }
 
 .container {
+    display: grid;
+    /* gap: 45px; */
+    grid-template-rows: 100px auto;
+    grid-template-columns: 100%;
     padding: 30px 40px;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(45deg, sandybrown, transparent);
     /* background-color: sandybrown; */
     /* background: linear-gradient( 36deg,seagreen , yellowgreen, #f19c00); */
@@ -49,4 +53,95 @@ h1 {
     position: absolute;
     right: 443px;
     top: 27px;
+}
+
+.container h3 {
+    font-size: 33px;
+    text-decoration: underline;
+}
+
+.play {
+    display: flex;
+    /* margin: 200px auto; */
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    /* border: 2px solid red; */
+    /* padding: 8px; */
+}
+
+.option {
+    text-align: center;
+}
+
+.option p {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.user {
+    /* border: 2px solid blue; */
+    width: 626px;
+    height: 441px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+
+.snake, .water, .gun {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: fit-content;
+    box-shadow:2px 6px 6px 2px black;
+    /* border: 2px solid indigo; */
+    cursor: pointer;
+}
+
+.water {
+    padding: 25px;
+}
+
+.gun {
+    padding: 30px;
+}
+
+.snake img {
+    height: 145px;
+}
+
+.water img {
+    height: 118px;
+}
+
+.gun img {
+    height: 95px;
+}
+
+.comp {
+    /* border: 2px solid green; */
+    width: 626px;
+    height: 441px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comp {
+    height: 380px;
+    cursor: pointer;
+}
+
+.compare {
+    position: absolute;
+    top: 57%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+.compare p {
+    font-size: 72px;
+    font-weight: 700;
 }
