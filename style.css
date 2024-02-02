@@ -1,13 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Diphylleia', serif;
+}
+
+body {
+    width: 100%;
+    
 }
 
 .container {
-    background: linear-gradient(
-        plum 80%,
-        firebrick 45%,
-        seagreen 52%,  
-    );
+    padding: 30px 40px;
+    height: 100vh;
+    background: linear-gradient(45deg, sandybrown, transparent);
+    /* background-color: sandybrown; */
+    /* background: linear-gradient( 36deg,seagreen , yellowgreen, #f19c00); */
+    /* background: linear-gradient(180deg, #ffff54,#ec75ec, firebrick); */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    left: 35.8%;
+}
+
+#snake {
+    height: 102px;
+    position: absolute;
+    left: 31%;
+    top: 1.5%;
+}
+
+#water {
+    position: absolute;
+    height: 83px;
+    left: 46.4%;
+    top: 6%;
+}
+
+#gun {
+    height: 68px;
+    transform: rotate(12deg);
+    position: absolute;
+    right: 443px;
+    top: 27px;
 }
