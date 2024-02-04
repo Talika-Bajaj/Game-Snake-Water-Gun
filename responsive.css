@@ -1,7 +1,26 @@
+@media screen and (max-width: 1200px) {
+    #snake {
+        left: 26%;
+    }
+
+    #gun {
+        right: 27%;
+    }
+}
+
 @media screen and (max-width: 1045px) {
+    #snake {
+        left: 22%;
+    }
+
+    #gun {
+        right: 24%;
+    }
+
     .user {
         gap: 10px;
     }
+
     .snake img {
         height: 105px;
     }
@@ -16,24 +35,43 @@
 }
 
 @media screen and (max-width:900px) {
-    .user {
-      width: 100vw;
+    #snake {
+        left: 17%;
     }
-#comp {
-    height: 280px;
+
+    #gun {
+        right: 20%;
+    }
+
+    .user {
+        width: 100vw;
+    }
+
+    #comp {
+        height: 280px;
+    }
+
+    /* v/s container */
+    .compare {
+        top: 58%;
+        left: 53%;
+    }
 }
 
-/* v/s container */
-.compare {
-    top: 58%;
-    left: 53%;
-}
-}
 @media screen and (max-width: 815px) {
+    #snake {
+        left: 13%;
+    }
+
+    #gun {
+        right: 16%;
+    }
+
     .user {
         width: 80vw;
         gap: 2px;
-      }
+    }
+
     .snake img {
         height: 100px;
     }
@@ -45,12 +83,25 @@
     .gun img {
         height: 55px;
     }
+
     .compare {
         left: 50%;
     }
 }
 
 @media screen and (max-width: 700px) {
+    #snake {
+        left: 7%;
+    }
+
+    #water {
+        left: 43.4%;
+    }
+
+    #gun {
+        right: 12%;
+    }
+
     .snake img {
         height: 110px;
     }
@@ -65,11 +116,14 @@
 
     .play {
         flex-direction: column;
+        gap: 180px;
     }
+
     .user {
         height: 200px;
         width: 100%;
     }
+
     .comp {
         height: 200px;
     }
@@ -77,15 +131,21 @@
     #comp {
         height: 250px;
     }
+
     .compare {
-        left: 51%;
-        top: 62%;
+        left: 50%;
+        top: 55%;
+    }
+
+    /* pop-up container */
+    .pop-up {
+        top: 55%;
     }
 }
 
 @media screen and (max-width: 650px) {
     .main {
-        padding: 25px 30px ;
+        padding: 25px 30px;
     }
 
     .user {
@@ -93,18 +153,61 @@
     }
 
     .compare {
-        top: 78%;
+        top: 62%;
+    }
+
+    /* pop-up container */
+    .pop-up {
+        top: 61%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    #snake {
+        height: 82px;
+        left: 0%;
+        top: 1.8%;
+    }
+
+    #water {
+        height: 78px;
+        top: 4%;
+        left: 40.4%;
+    }
+
+    #gun {
+        height: 60px;
+        top: 4%;
+        right: 3%;
+    }
+
+    .main h3 {
+        font-size: 28px;
+    }
+
+    .compare {
+        top: 67%;
     }
 }
 
 @media screen and (max-width: 450px) {
+    h1 {
+        font-size: 39px;
+    }
+
+    
     .snake {
         padding: 8px;
     }
-        
+
     .snake img {
         height: 100px;
     }
+
     .water {
         padding: 12px;
     }
@@ -112,6 +215,7 @@
     .water img {
         height: 82px;
     }
+
     .gun {
         padding: 20px;
     }
@@ -119,19 +223,62 @@
     .gun img {
         height: 70px;
     }
+
+    .user {
+        gap: 5px;
+    }
+
+    #comp {
+        height: 225px;
+      }
+    /* pop-up container */
+    .pop-up {
+        width: 300px;
+        /* height: 215px; */
+    }
+
+    .para {
+        margin: 15px;
+    }
+
+    .compare {
+        top: 70%;
+    }
 }
 
-@media screen and (max-width: 382px) {
+@media screen and (max-width: 384px) {
+
     .main {
         padding: 25px;
     }
-    .snake {
-        padding: 6px;
+
+    h1 {
+        font-size: 34px;
     }
-        
-    .snake img {
+
+    #snake {
+        top: 0.5%;
+    }
+
+    #water {
+        height: 70px;
+        left: 38%;
+    }
+
+    #gun {
+        height: 55px;
+        top: 3%;
+        /* right: 3%; */
+    }
+
+    /* .snake {
+        padding: 6px;
+    } */
+
+    /* .snake img {
         height: 85px;
     }
+
     .water {
         padding: 9px;
     }
@@ -139,22 +286,51 @@
     .water img {
         height: 78px;
     }
+
     .gun {
         padding: 18px;
     }
 
     .gun img {
         height: 66px;
+    } */
+
+    .play {
+        gap: 200px;
+    }
+
+    .user {
+        gap: 14px;
+    }
+    /* pop-up container */
+    .pop-up {
+        width: 277px;
+        height: 201px;
+    }
+
+    .para {
+        margin: 15px;
+    }
+
+    .compare {
+        top: 73%;
     }
 }
-
-
+/* 
+@media screen and (max-width: 371px) {
+    .play {
+        gap: 200px;
+    }
+    .compare {
+        top: 70%;
+    }
+} */
+/* 
 @media screen and (max-width: 350px) {
-
-
     .water img {
         height: 70px;
     }
+
     .gun {
         padding: 12px;
     }
@@ -162,4 +338,13 @@
     .gun img {
         height: 58px;
     }
-}
+
+    .play {
+        gap: 180px;
+    }
+
+    .compare {
+        top: 68%;
+    }
+
+} */
