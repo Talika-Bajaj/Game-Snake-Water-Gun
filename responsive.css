@@ -1,0 +1,165 @@
+@media screen and (max-width: 1045px) {
+    .user {
+        gap: 10px;
+    }
+    .snake img {
+        height: 105px;
+    }
+
+    .water img {
+        height: 80px;
+    }
+
+    .gun img {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .user {
+      width: 100vw;
+    }
+#comp {
+    height: 280px;
+}
+
+/* v/s container */
+.compare {
+    top: 58%;
+    left: 53%;
+}
+}
+@media screen and (max-width: 815px) {
+    .user {
+        width: 80vw;
+        gap: 2px;
+      }
+    .snake img {
+        height: 100px;
+    }
+
+    .water img {
+        height: 70px;
+    }
+
+    .gun img {
+        height: 55px;
+    }
+    .compare {
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .snake img {
+        height: 110px;
+    }
+
+    .water img {
+        height: 85px;
+    }
+
+    .gun img {
+        height: 70px;
+    }
+
+    .play {
+        flex-direction: column;
+    }
+    .user {
+        height: 200px;
+        width: 100%;
+    }
+    .comp {
+        height: 200px;
+    }
+
+    #comp {
+        height: 250px;
+    }
+    .compare {
+        left: 51%;
+        top: 62%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        padding: 25px 30px ;
+    }
+
+    .user {
+        height: 300px;
+    }
+
+    .compare {
+        top: 78%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .snake {
+        padding: 8px;
+    }
+        
+    .snake img {
+        height: 100px;
+    }
+    .water {
+        padding: 12px;
+    }
+
+    .water img {
+        height: 82px;
+    }
+    .gun {
+        padding: 20px;
+    }
+
+    .gun img {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .main {
+        padding: 25px;
+    }
+    .snake {
+        padding: 6px;
+    }
+        
+    .snake img {
+        height: 85px;
+    }
+    .water {
+        padding: 9px;
+    }
+
+    .water img {
+        height: 78px;
+    }
+    .gun {
+        padding: 18px;
+    }
+
+    .gun img {
+        height: 66px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+
+
+    .water img {
+        height: 70px;
+    }
+    .gun {
+        padding: 12px;
+    }
+
+    .gun img {
+        height: 58px;
+    }
+}
