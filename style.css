@@ -8,7 +8,10 @@
 }
 
 body {
-    width: 100%;
+    /* background: linear-gradient(45deg, sandybrown, transparent); */
+    background-color: rebeccapurple;
+    /* overflow: hidden; */
+    height: 100vh;
 }
 
 /* main container */
@@ -17,8 +20,9 @@ body {
     grid-template-rows: 100px auto;
     grid-template-columns: 100%;
     padding: 30px 40px;
-    height: 100%;
-    background: linear-gradient(45deg, sandybrown, transparent);
+    /* width: 100%; */
+    /* height: 100%; */
+
     /* background-color: sandybrown; */
     /* background: linear-gradient( 36deg,seagreen , yellowgreen, #f19c00); */
     /* background: linear-gradient(180deg, #ffff54,#ec75ec, firebrick); */
@@ -64,9 +68,9 @@ h1 {
 .play {
     display: flex;
     /* margin: 200px auto; */
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    gap: 180px;
+    gap: 100px;
     box-shadow: 7px 7px 10px 5px lightcoral;
     /* border: 2px solid red; */
 }
@@ -74,11 +78,11 @@ h1 {
 /* user box */
 .user {
     /* border: 2px solid blue; */
-    width: 626px;
+    width: 730px;
     height: 441px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 } 
@@ -106,7 +110,7 @@ h1 {
 }
 
 .water img {
-    height: 118px;
+    height: 110px;
 }
 
 .gun img {
@@ -116,7 +120,7 @@ h1 {
 /* computer box */
 .comp {
     /* border: 2px solid green; */
-    width: 626px;
+    width: 600px;
     height: 441px;
     display: flex;
     justify-content: center;
