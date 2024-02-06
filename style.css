@@ -32,44 +32,14 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-weight: 600;
-    /* margin: auto; */
-}
-
-#snake {
-    height: 102px;
-    position: absolute;
-    left: 28%;
-    top: 1.5%;
-    z-index: -1;
-}
-
-#water {
-    position: absolute;
-    height: 83px;
-    left: 46.4%;
-    top: 6%;
-    z-index: -1;
-}
-
-#gun {
-    height: 68px;
-    transform: rotate(12deg);
-    position: absolute;
-    right: 30%;
-    top: 4%;
-    z-index: -1;
-}
-
-.main h3 {
-    font-size: 33px;
     text-decoration: underline;
+    /* margin: auto; */
 }
 
 /* play container */
 .play {
     width: 100%;
     display: flex;
-    /* margin: 200px auto; */
     /* justify-content: center; */
     align-items: center;
     gap: 40px;
@@ -84,9 +54,7 @@ h1 {
     /* border: 2px solid blue; */
   height: 100%;
     width: 60%;
-    /* width: 730px; */
     padding: 10px;
-    /* height: 441px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -136,9 +104,7 @@ h1 {
 /* computer box */
 .comp {
     /* border: 2px solid green; */
-    /* width: 600px; */
     width: 40%;
-    /* height: 441px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,8 +114,6 @@ h1 {
     height: 380px;
     cursor: pointer;
 }
-
-
 
 /* pop-up container */
 .pop-up {
