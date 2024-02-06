@@ -1,12 +1,4 @@
 @media screen and (max-width: 1200px) {
-    #snake {
-        left: 24%;
-    }
-    
-    #gun {
-        right: 26%;
-    }
-
     .play {
         max-width: auto;
     }
@@ -31,14 +23,6 @@
 }
 
 @media screen and (max-width: 1032px) {
-    #snake {
-        left: 20%;
-    }
-    
-    #gun {
-        right: 23%;
-    }
-
     .play {
         gap: 40px;
         flex-direction: column;
@@ -53,54 +37,15 @@
 }
 
 @media screen and (max-width: 824px) {
-    #snake {
-        left: 16%;
-        top: 3%;
-    }
-    
-    #gun {
-        right: 19%;
-    }
     .compare {
         top: 98%;
         left: 50%;
     }
 }
 
-@media screen and (max-width: 750px) {
-    /* h1 {
-        font-size: 44px;
-    } */
-    #snake {
-        left: 10%;
-        top: 3%;
-    }
-
-    #water {
-        left: 43.4%;
-    }
-
-    
-    #gun {
-        right: 13%;
-    }
-}
-
 @media screen and (max-width: 650px) {
     h1 {
         font-size: 47px;
-    }
-    #snake {
-        left: 4%;
-        top: 3%;
-    }
-    
-    #water {
-        left: 42.4%;
-    }
-
-    #gun {
-        right: 8%;
     }
     
 }
@@ -115,13 +60,13 @@
     .gun img {
         height: 70px;
     }
-    #comp {
-        height: 320px ;
-    }
     .compare {
         top: 93%;
     }
-    
+    #comp {
+        height: 320px ;
+    }
+
 }
 
 @media screen and (max-width: 513px) {
@@ -137,23 +82,6 @@
 
     h1 {
         font-size: 40px;
-    }
-    #snake {
-        height: 92px;
-        left: 4%;
-        top: 3%;
-    }
-    
-    #water {
-        left: 50.4%;
-        height: 73px;
-        top: 3%;
-    }
-
-    #gun {
-        right: 29%;
-        height: 50px;
-        top: 11%;
     }
 
     .snake img {
@@ -180,11 +108,6 @@
         gap: 100px;
     }
 
-    #gun {
-        right: 29%;
-        height: 45px;
-        top: 15%;
-    }
        
 }
 
@@ -192,12 +115,6 @@
     .main {
         max-width: 100vw;
         padding: 18px;
-    }
-
-    #gun {
-        right: 29%;
-        height: 45px;
-        top: 15%;
     }
 
     .pop-up  {
@@ -224,12 +141,6 @@
 
     .play {
         width: 90%;
-    }
-
-    #gun {
-        right: 29%;
-        height: 45px;
-        top: 15%;
     }
       
     .pop-up  {
